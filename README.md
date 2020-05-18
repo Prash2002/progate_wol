@@ -1,6 +1,6 @@
 # LearNew
 
-This is a basic website for aspiring developers and beginners who’re learning to code
+This is a basic website for aspiring developers and beginners who’re learning to code. It is completely responsive.
 
 As a beginner myself, I know how difficult it is to take the first step.
 
