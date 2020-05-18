@@ -1,0 +1,159 @@
+h1, h3 ,h2, h4{
+    font-weight: normal;
+    text-transform: capitalize;
+    
+}
+
+body{
+    background-color: #ECEFF1;
+}
+
+li {
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    background: linear-gradient(to right,  #37474F, #607D8B);
+    line-height: 10vh;
+    margin-top:0;
+    position: fixed;
+    z-index: 10;
+}
+
+header h1{
+    float: left;
+    padding-left: 30px;
+    color: #CFD8DC;
+    letter-spacing: 3px;
+    font-family: 'Lobster', cursive;
+}
+
+header ul{
+    text-align: center;
+    list-style: none;
+    float: right;
+}
+header li{
+    float: left; 
+}
+header li a{
+    text-decoration: none;
+    padding:5vh 10px;
+    color: #B0BEC5;
+}
+
+header li a:hover{
+    background-color: #B0BEC5;
+    color: #455A64 ;
+    cursor: pointer;
+}
+
+
+.main{
+    background-image: url('https://www.itl.cat/pngfile/big/80-809973_openmind-provides-training-web-coding.jpg');
+    background-size: cover;
+    line-height: 80vh;
+    text-align: center;
+    color: white;
+    height: 70vh;
+    border-radius: 0 0 15% 15% ;
+    letter-spacing: 5px;
+}
+
+/* intro */
+
+.intro {
+    width: 60%;
+    text-align: justify;
+    margin: 30vh auto;
+    color: #37474F;
+    font-family: 'Lobster';
+    font-size: 20px;
+}
+
+
+
+/* topics */
+
+
+.topics{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.topic {
+    background-color: rgb(194, 210, 218);
+    border-radius: 100% 100% 25% 25%;
+    border-bottom: 3px solid #90A4AE;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+.topics h3{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+.topic img{
+    height: 100px;
+    margin: 30px 0px;
+}
+.topic p{
+    width:50%;
+    text-align: justify;
+    margin: 0 auto;
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+}
+.topic h2, h3,h4{
+    color: #37474F;
+}
+.topic h4{
+    margin: 20px 35%;
+    font-family: 'Lobster', cursive;
+}
+.topic ul{
+    padding: 10px 20px;
+    border-left: 2px solid #37474F ;
+    margin: 10px 40%;
+    text-align: start;
+}
+.topic p, ul {
+    color: #546E7A;
+    font-family: 'Handlee', cursive;
+}
+
+.shape_a{
+    text-align: start;
+    width: 300px;
+    float: left;
+    shape-outside: circle(50%);
+}
+.shape_i{
+    text-align: end;
+    width: 300px;
+    float: right;
+    shape-outside: circle(50%);
+}
+
+/* menu bar */
+.burger{
+    display: none;
+    float: right;
+    padding-top: 5vh;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.burger div{
+    text-align: end;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+
+}
+
+
